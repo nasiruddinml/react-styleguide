@@ -21,6 +21,7 @@
     "jsx": "react"
   },
   "include": [
-    "src", "styleguide.config.js"
-  ],
+    "src",
+    "styleguide.config.*"
+  ]
 }

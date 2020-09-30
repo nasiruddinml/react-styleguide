@@ -91,7 +91,7 @@ const styles = {
   ReactComponent: {
     tabs: {
       backgroundColor: colors.paleGrey,
-      padding: rhythm([0.5, 1]),
+      padding: rhythm(0.5, 'rem', 1),
       overflow: 'auto'
     },
     tabButtons: {

@@ -10,10 +10,10 @@ const {
 
 module.exports = {
   title: `React Style-guide ${version}`,
-  serverPort: 3000,
+  serverPort: 3001,
   usageMode: 'expand',
-  theme: 'styleguide.theme.js',
-  styles: 'styleguide.styles.js',
+  theme: 'styleguide.theme.ts',
+  styles: 'styleguide.styles.ts',
   template: ({
     css,
     js,
@@ -45,13 +45,11 @@ module.exports = {
         <link rel="stylesheet" href="https://use.typekit.net/lbp2sai.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
         <style type="text/css">
-          /* Icons style overrides  */
           #Icon-container article { display: flex; flex-wrap: wrap; }
           #Icon-container article > div:first-child, #Icon-container article p { width: 100%; flex-basis: 100%; }
           #Icon-container article > div[class*='rsg--root'] { margin-right: 2rem; }
           #Icon-container article > div[class*='rsg--root'] [class*='rsg--preview'] { text-align: center; font-size: 1.5rem; }
           #Icon-container article > div[class*='rsg--root'] [class*='rsg--toolbar'] { display: none; }
-          /* Codemirror overrides */
           .CodeMirror.CodeMirror.CodeMirror pre { padding: 0.25em }
         </style>
         ${cssTags}
